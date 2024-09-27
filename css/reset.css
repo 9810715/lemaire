@@ -1,0 +1,63 @@
+/* @font-face {
+    font-family: 'Pretendard';
+    src:url(../fonts/Pretendard/Pretendard-Light.otf);
+    src: url(../fonts/Pretendard/Pretendard-Thin.otf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src:url(../fonts/Pretendard/Pretendard-Regular.ttf);
+    src: url(../fonts/Pretendard/Pretendard-Medium.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src:url(../fonts/Pretendard/Pretendard-SemiBold.otf);
+    src: url(../fonts/Pretendard/Pretendard-Bold.otf);
+    font-weight: 800;
+} */
+
+/* 프리텐다드 웹폰트 연결 */
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+/* 가라몬드 웹폰트 연결 */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: 'Pretendard', sans-serif;
+    /* font-family: "EB Garamond", serif; */
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    color: #222;
+    /* 전체적으로 들어가는 본문 폰트 색상 변경 */
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    /* a태그를 전부 블록처리해서 크기값을 이어받거나 적용할 수 있도록 지정 */
+}
+
+ol,ul,li {
+    list-style: none;
+}
+
+img,svg,video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button,input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
